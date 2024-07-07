@@ -1,0 +1,12 @@
+name: HxAreas
+version: '${version}'
+main: fr.hydroxios.hxareas.HxAreas
+api-version: '1.20'
+author: Hydroxios
+commands:
+  getareasetter:
+    description: Give you the area setter
+  savearea:
+    description: Save the selected area with the given name
+  getcb:
+    description: Tell you your clipboard of selected positions
