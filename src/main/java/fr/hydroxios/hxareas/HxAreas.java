@@ -110,7 +110,7 @@ public class HxAreas extends JavaPlugin {
 								getConfig().set("areas." + a.getUUID() + ".corner2.y", a.getCorner2().getY());
 								getConfig().set("areas." + a.getUUID() + ".corner2.z", a.getCorner2().getZ());
 								saveConfig();
-								p.sendMessage(PREFIX + "Area " + a.getName() + ChatColor.GREEN + " saved !");
+								p.sendMessage(PREFIX + " Area " + a.getName() + ChatColor.GREEN + " saved !");
 							} else {
 								p.sendMessage(
 										PREFIX + ChatColor.RED + "You need to provied a name eq: /savearea <name>");
